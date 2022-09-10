@@ -801,6 +801,11 @@ img {
 
 .form-email {
   display: flex;
+  align-content: flex-start;
+}
+
+.tor {
+  display: flex;
 }
 
 .input-email {
@@ -833,6 +838,8 @@ img {
   font-size: 16px;
   line-height: 1.88;
   padding-left: 28px;
+  border: none;
+  cursor: pointer;
 
   display: flex;
   align-items: center;
@@ -842,13 +849,12 @@ img {
 }
 
 .icon-email {
-  padding-left: 10px;
+  margin-left: 10px;
 }
 
 .input-email::placeholder {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
-  /* padding-left: 16px; */
   color: rgba(255, 255, 255, 0.6);
 }
