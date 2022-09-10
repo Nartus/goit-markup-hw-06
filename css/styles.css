@@ -792,7 +792,7 @@ img {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  margin-left: 183px;
+  margin-left: 93px;
   margin-top: 72px;
   margin-bottom: 20px;
   text-transform: uppercase;
@@ -802,10 +802,6 @@ img {
 .form-email {
   display: flex;
   align-content: flex-start;
-}
-
-.tor {
-  display: flex;
 }
 
 .input-email {
