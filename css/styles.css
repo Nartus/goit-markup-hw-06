@@ -536,7 +536,7 @@ img {
 }
 
 .flex-footer-two {
-  margin-left: 70px;
+  margin-left: auto;
 }
 
 .footer-box {
@@ -762,8 +762,8 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 450px;
-  height: 609px;
+  width: 528px;
+  height: 581px;
   padding: 40px;
   background: var(--text-white);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -786,6 +786,15 @@ img {
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+.svg-icon-close {
+  cursor: pointer;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.svg-icon-close:hover {
+  fill: var(--logo-one);
+}
+
 /* Контент модального окна */
 
 .modal-headlines {
@@ -795,10 +804,6 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-darkgray);
-  width: 370px;
-  height: 60px;
-  left: 199px;
-  top: 248px;
   margin-bottom: 12px;
 }
 
@@ -824,9 +829,6 @@ img {
   display: flex;
   width: 100%;
   height: 40px;
-  left: 199px;
-  top: 338px;
-  margin-bottom: 10px;
   padding-left: 42px;
 
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -842,6 +844,14 @@ img {
 .modal-input:focus {
   border-color: var(--logo-one);
   outline: none;
+}
+
+.modal-label {
+  margin-bottom: 10px;
+}
+
+.modal-label-last {
+  margin-bottom: 20px;
 }
 
 .name-form {
@@ -860,7 +870,6 @@ img {
   height: 120px;
   resize: none;
   padding: 12px 16px;
-  margin-bottom: 20px;
 
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
@@ -878,7 +887,8 @@ img {
 }
 
 .checkbox {
-  margin-bottom: 31px;
+  margin: 0 auto;
+  margin-bottom: 30px;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -896,13 +906,12 @@ img {
 }
 
 .modal-icon-checkbox {
-  /* position: absolute; */
   width: 16px;
   height: 15px;
   cursor: pointer;
-  background: var(--logo-one);
   border-radius: 2px;
   margin-right: 7px;
+  box-shadow: 0 0 0 2px;
 }
 
 .input-chekbox {
@@ -919,6 +928,14 @@ img {
   fill: #000000;
 }
 
+.modal-agreement {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-gray);
+}
+
 .treaty {
   color: var(--logo-one);
 }
@@ -930,6 +947,7 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
+  cursor: pointer;
 
   font-weight: 700;
   font-size: 16px;
@@ -941,13 +959,15 @@ img {
 
 /* Форма подписки на почту */
 
+.form-subscribe {
+  margin-left: auto;
+}
+
 .email-headlines {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  margin-left: 93px;
-  margin-top: 72px;
   margin-bottom: 20px;
   text-transform: uppercase;
   color: var(--text-white);
@@ -965,10 +985,7 @@ img {
 .input-email {
   width: 358px;
   height: 50px;
-  left: 815px;
-  top: 2784px;
   margin-right: 12px;
-  margin-left: 93px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
